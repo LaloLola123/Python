@@ -5,7 +5,8 @@ def main():
    horas = (numero_1 / 3600)
    minutos = ((numero_1 % 3600) / 60)
    segundos = ((numero_1 % 60) / 1)
-   print("Horas:" + str(horas) + "y" "Minutos:" + str(minutos) + "y" "Segundos:" + str(segundos))
+   print("Horas:" + str(horas))
+   print("Minutos:" + str(minutos))
+   print("Segundos:" + str(segundos))
 if __name__ == "__main__":
     main()
-##############################
